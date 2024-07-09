@@ -44,9 +44,36 @@
 
 <procedure title="Windows" id="windows">
     <step>
+        <p>Скачиваешь и устанавливаешь: https://nodejs.org/dist/v20.15.1/node-v20.15.1-x64.msi</p>
+    </step>
+    <step>
         <p>Скачиваешь репозиторий по ссылке: https://github.com/siniukov-de/forumnick-samp/archive/refs/heads/master.zip</p>
     </step>
     <step>
-        <p>Press <shortcut>Tab</shortcut> or <shortcut>Enter</shortcut> to insert the markup.</p>
+        <p>Разархивируешь папку</p> <code>forumnick-samp</code>.
+    </step>
+    <step>
+        <p>Заходишь в папку.</p>
+    </step>
+    <step>
+        <p>Копируешь путь до папки.</p>
+    </step>
+    <step>
+        <shortcut>CTRL+R</shortcut>
+    </step>
+    <step>
+         <p>Пишешь</p> <shortcut>cmd</shortcut>.
+    </step>
+    <step>
+        <shortcut>ENTER</shortcut>
+    </step>
+    <step>
+        <shortcut>cd ПУТЬ_ДО_ПАПКИ</shortcut>
+    </step>
+    <step>
+        <shortcut>npm i</shortcut>
+    </step>
+    <step>
+        <shortcut>node .</shortcut>
     </step>
 </procedure>
